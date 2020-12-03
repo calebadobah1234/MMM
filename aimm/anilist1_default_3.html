@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" href="app/assets/images/favicon.dark.png">
+<link rel="stylesheet" href="app/assets/app.css">
+
+
+<title>Mediahome - AnimeList &bull; Movie</title>
+
+<div id="app" class="flex flex-col min-h-screen font-sans dark-mode">
+        <header id="header" class="bg-blue-600 shadow sticky top-0">
+    <div class="container flex flex-col flex-coljustify-between items-center mx-auto p-4 md:flex-row">
+        <div class="flex-grow font-mono text-white text-sm tracking-tight mb-2 md:my-1">
+            <h3 class="miel"><a href="anilist1_default.html" class="hover:underline">
+                Home
+            </a>
+
+                                                / <h3 class="miel"><a href="anilist1_default_3.html" class="hover:underline">Movie</a>
+                                    </div>
+
+        <div class="flex justify-end items-center" style="margin-right: 1em;">
+            <h3 class="miel"><a href="anilist1_default.html"><img src="AL.png"></a>
+        </div>
+
+        <!--<div class="flex justify-end items-center">
+            
+            <form action="." method="get" id="search" class="flex-grow group relative block bg-blue-700 rounded-full shadow-inner">
+                <input v-model="search" ref="searchInput" v-on:focus="$event.target.select()"
+                    type="text" name="search" placeholder="Search..." value=""
+                    class="bg-transparent placeholder-gray-900 text-white w-full px-10 py-2"
+                >
+
+                <div class="flex items-center absolute left-0 inset-y-0 ml-2 pointer-events-none">
+                    <div class="flex justify-center items-center text-blue-900 w-6 h-6">
+                        <i class="fas fa-search fa-fw"></i>
+                    </div>
+                </div>
+
+                <div class="flex items-center absolute right-0 inset-y-0 mr-2" v-show="search">
+                    <h3 class="miel"><a href="."  class="flex justify-center items-center rounded-full text-blue-900 w-6 h-6 hover:bg-red-700 hover:text-white hover:shadow">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </div>
+            </form>
+        </div>-->
+    </div>
+</header>
+
+    <div id="content" class="flex-grow container mx-auto px-4">
+        <div class="my-4">
+            <div class="flex justify-between font-bold p-4">
+                <div class="flex-grow font-mono mr-2">
+                    File Name
+                </div>
+
+                <div class="font-mono text-right w-1/6 mx-2 hidden sm:block">
+                    Size
+                </div>
+
+                <div class="font-mono text-right w-1/4 ml-2 hidden sm:block">
+                    Date
+                </div>
+            </div>
+
+            <ul id="file-list">
+                <li>
+                                            <a
+    href="anilist1_default.html"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-level-up-alt fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            ..
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            —
+        </div>
+    </div>
+</a>
+
+                                    </li>
+
+                <li>
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/1969"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            1969
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-14 15:25:29
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/1970"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            1970
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-08 21:59:06
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/1972"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            1972
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-15 14:54:16
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/1978"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            1978
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-14 15:24:16
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/1980"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            1980
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-12 21:11:49
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/1983"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            1983
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-12 22:51:10
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/1985"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            1985
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-18 00:06:55
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/1987"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            1987
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-26 17:00:56
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/1996"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            1996
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-18 00:10:14
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/1997"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            1997
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-15 23:15:19
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/2000"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            2000
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-23 12:23:49
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/2003"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            2003
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-25 17:00:23
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/2007"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            2007
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-03 02:07:13
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/2008"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            2008
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-23 12:09:48
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/2009"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            2009
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-14 14:55:06
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/2010"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            2010
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-23 12:14:44
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/2011"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            2011
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-20 17:25:16
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/2012"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            2012
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-21 19:15:16
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/2013"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            2013
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-23 11:52:21
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/2014"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            2014
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-14 15:03:57
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/2015"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            2015
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-23 12:03:47
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/2016"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            2016
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-05 01:05:06
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/2017"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            2017
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-12 18:15:55
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/2018"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            2018
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-18 18:50:39
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/2019"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            2019
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-08 11:28:33
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/2020"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            2020
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-24 13:24:46
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Movie/250%20IMDB"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            250 IMDB
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-06 15:30:43
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="Movie/gfn.htm"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fab fa-php fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            gfn.php
+        </div>
+
+                    <div class="ml-2">
+                <button
+                    title="File Info"
+                    class="flex justify-center items-center rounded-full p-2 -m-1 md:invisible hover:bg-gray-400 hover:shadow group-hover:visible"
+                    v-on:click.prevent="showFileInfo('Movie\/gfn.php')"
+                >
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                            578.00B
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-03 20:43:27
+        </div>
+    </div>
+</a>
+
+                                    </li>
+            </ul>
+        </div>
+
+            </div>
+
+    <footer class="container border-t-2 border-gray-800 text-center mx-auto px-4 py-8">
+    <div class="flex flex-col justify-center items-center">
+        <p class="mb-4">
+            Download Anime, <h3 class="miel"><a href="https://www.animelist.ir/" class="underline hover:text-blue-700">Anime List</a>
+        </p>
+        <p class="mb-4" style="display:none;">
+            Powered by <h3 class="miel"><a href="https://www.directorylister.com" class="underline hover:text-blue-700">Directory Lister</a>
+        </p>
+
+        <div class="flex">
+            <!--<h3 class="miel"><a href="https://github.com/DirectoryLister/DirectoryLister" title="GitHub" class="text-gray-400 mx-2 hover:text-github">
+                <i class="fab fa-github fa-lg"></i>
+            </a>
+
+            <h3 class="miel"><a href="https://twitter.com/DirectoryLister" title="Twitter" class="text-gray-400 mx-2 hover:text-twitter">
+                <i class="fab fa-twitter fa-lg"></i>
+            </a>
+
+            <h3 class="miel"><a href="https://spectrum.chat/directory-lister" title="Spectrum" class="text-gray-400 mx-2 hover:text-spectrum">
+                <i class="fas fa-comments fa-lg"></i>
+            </a>-->
+
+            <h3 class="miel"><a href="https://t.me/animelist_ir" title="Telegram" class="text-gray-400 mx-2 hover:text-twitter">
+                <i class="fab fa-telegram-plane fa-lg"></i>
+            </a>
+
+            <h3 class="miel"><a href="https://instagram.com/animelist.ir" title="Instagram" class="text-gray-400 mx-2 hover:text-spectrum">
+                <i class="fab fa-instagram fa-lg"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+    <div class="fixed bottom-0 left-0 right-0 pointer-events-none">
+    <div class="container flex justify-end mx-auto px-4 py-10">
+        <button id="scroll-to-top" ref="scrollToTop"  title="Scroll to Top"
+            class="flex justify-center items-center w-12 h-12 right-0 rounded-full shadow-lg bg-blue-600 text-white cursor-pointer pointer-events-auto hover:bg-blue-700 hidden"
+            onclick="window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });"
+        >
+            <i class="fas fa-arrow-up fa-lg"></i>
+        </button>
+    </div>
+</div>
+    <file-info-modal ref="fileInfoModal"></file-info-modal>
+</div>
+
+<script src="http://anilist1.ir/app/assets/app.js" defer></script>

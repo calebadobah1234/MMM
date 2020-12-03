@@ -1,0 +1,4300 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" href="app/assets/images/favicon.dark.png">
+<link rel="stylesheet" href="app/assets/app.css">
+
+
+<title>Mediahome - AnimeList &bull; Series</title>
+
+<div id="app" class="flex flex-col min-h-screen font-sans dark-mode">
+        <header id="header" class="bg-blue-600 shadow sticky top-0">
+    <div class="container flex flex-col flex-coljustify-between items-center mx-auto p-4 md:flex-row">
+        <div class="flex-grow font-mono text-white text-sm tracking-tight mb-2 md:my-1">
+            <h3 class="miel"><a href="anilist1_default.html" class="hover:underline">
+                Home
+            </a>
+
+                                                / <h3 class="miel"><a href="anilist1_default_5.html" class="hover:underline">Series</a>
+                                    </div>
+
+        <div class="flex justify-end items-center" style="margin-right: 1em;">
+            <h3 class="miel"><a href="anilist1_default.html"><img src="AL.png"></a>
+        </div>
+
+        <!--<div class="flex justify-end items-center">
+            
+            <form action="." method="get" id="search" class="flex-grow group relative block bg-blue-700 rounded-full shadow-inner">
+                <input v-model="search" ref="searchInput" v-on:focus="$event.target.select()"
+                    type="text" name="search" placeholder="Search..." value=""
+                    class="bg-transparent placeholder-gray-900 text-white w-full px-10 py-2"
+                >
+
+                <div class="flex items-center absolute left-0 inset-y-0 ml-2 pointer-events-none">
+                    <div class="flex justify-center items-center text-blue-900 w-6 h-6">
+                        <i class="fas fa-search fa-fw"></i>
+                    </div>
+                </div>
+
+                <div class="flex items-center absolute right-0 inset-y-0 mr-2" v-show="search">
+                    <h3 class="miel"><a href="."  class="flex justify-center items-center rounded-full text-blue-900 w-6 h-6 hover:bg-red-700 hover:text-white hover:shadow">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </div>
+            </form>
+        </div>-->
+    </div>
+</header>
+
+    <div id="content" class="flex-grow container mx-auto px-4">
+        <div class="my-4">
+            <div class="flex justify-between font-bold p-4">
+                <div class="flex-grow font-mono mr-2">
+                    File Name
+                </div>
+
+                <div class="font-mono text-right w-1/6 mx-2 hidden sm:block">
+                    Size
+                </div>
+
+                <div class="font-mono text-right w-1/4 ml-2 hidden sm:block">
+                    Date
+                </div>
+            </div>
+
+            <ul id="file-list">
+                <li>
+                                            <a
+    href="anilist1_default.html"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-level-up-alt fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            ..
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            —
+        </div>
+    </div>
+</a>
+
+                                    </li>
+
+                <li>
+                                            <a
+    href="http://anilist1.ir/?dir=Series/3%25"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            3%
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-24 17:36:29
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/After%20Life"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            After Life
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-25 12:01:22
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Alexa%20and%20Katie"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Alexa and Katie
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-03 18:28:20
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Altered%20Carbon"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Altered Carbon
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-27 16:21:05
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Amazing%20Stories"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Amazing Stories
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-03 19:10:02
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Americas%20Got%20Talent:%20The%20Champions"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Americas Got Talent: The Champions
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-01-18 01:40:42
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Archer"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Archer
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-22 07:33:59
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Arrested%20Development"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Arrested Development
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-06 06:44:38
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Arrow"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Arrow
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-14 14:14:41
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Atiye"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Atiye
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-03 00:15:03
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Atlanta"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Atlanta
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-07 01:53:58
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Babylon%20Berlin"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Babylon Berlin
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-29 18:49:38
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Bad%20Banks"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Bad Banks
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-14 12:15:27
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Baghdad%20Central"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Baghdad Central
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-03 13:44:09
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Bard%20of%20Blood"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Bard of Blood
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-03 12:41:44
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Batman%20The.Animated%20Series"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Batman The.Animated Series
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-02 21:36:20
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Battlestar%20Galactica"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Battlestar Galactica
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-13 13:13:04
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Battlestar%20Galactica%20Miniseries"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Battlestar Galactica Miniseries
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-13 05:31:48
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Better%20Call%20Saul"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Better Call Saul
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-05 14:37:52
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Billions"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Billions
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-03 19:11:40
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Black%20Spot"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Black Spot
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-10 19:28:50
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/BoJack%20Horseman"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            BoJack Horseman
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-11 13:20:57
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/BronBroen"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            BronBroen
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-13 05:56:05
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Cable%20Girls"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Cable Girls
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-06-10 14:34:32
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Cardinal"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Cardinal
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-28 02:04:34
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Carmen%20Sandiego"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Carmen Sandiego
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-08 01:54:44
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Castle%20Rock"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Castle Rock
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-06 12:00:39
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Chicago%20Med"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Chicago Med
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-02 16:08:59
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Chilling%20Adventures%20of%20Sabrina"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Chilling Adventures of Sabrina
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-01-25 21:38:51
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Cobra%20Kai"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Cobra Kai
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-05 03:22:16
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Cosmos%20Possible%20Worlds"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Cosmos Possible Worlds
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-22 00:07:39
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Cstlevania"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Cstlevania
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-08 00:48:28
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Dead%20to%20Me"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Dead to Me
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-08 19:38:20
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Deadwood"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Deadwood
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-12 12:07:03
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Death%20Note"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Death Note
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-03 19:22:50
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Defending%20Jacob"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Defending Jacob
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-01 17:01:13
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Devs"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Devs
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-13 01:24:30
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Dirty%20Money"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Dirty Money
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-04 10:22:18
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Disenchantment"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Disenchantment
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-03 02:02:52
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Doctor%20Foster%20A%20Woman%20Scorned"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Doctor Foster A Woman Scorned
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-25 11:38:47
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Downton%20Abbey"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Downton Abbey
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-12 19:27:15
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/DuckTales"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            DuckTales
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-06 07:51:52
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Elite"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Elite
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-14 17:05:39
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Fargo"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Fargo
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-10-01 11:40:52
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Feel%20Good"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Feel Good
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-06-04 14:47:14
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Final%20Space"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Final Space
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-17 23:17:22
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Firefly"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Firefly
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-02 23:59:21
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Fleabag"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Fleabag
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-10 18:23:09
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Friday%20Night%20Lights"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Friday Night Lights
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-22 09:24:31
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Friends"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Friends
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-21 08:20:36
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Fringe"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Fringe
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-08 17:52:51
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Future%20Man"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Future Man
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-07 14:39:34
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Gangs%20of%20London"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Gangs of London
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-26 13:46:36
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Gentefied"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Gentefied
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-30 12:31:33
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Giri%20Haji"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Giri Haji
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-04 11:39:36
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Glitch%20Techs"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Glitch Techs
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-24 12:20:27
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Godless"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Godless
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-29 10:14:27
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Gomorra"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Gomorra
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-23 21:55:18
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Grantchester"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Grantchester
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-26 16:11:26
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Gravity%20Falls"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Gravity Falls
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-23 19:46:44
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Hanna"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Hanna
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-08 03:53:20
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Happy%20Endings"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Happy Endings
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-02 22:16:05
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Harley%20Quinn"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Harley Quinn
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-04 04:37:59
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/His%20Dark%20Materials"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            His Dark Materials
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-12 22:32:01
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Hollywood"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Hollywood
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-03 10:49:54
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Home%20Before%20Dark"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Home Before Dark
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-05 17:53:14
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Homeland"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Homeland
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-11 10:08:31
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/How%20to%20Sell%20Drugs%20Online%20(Fast)"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            How to Sell Drugs Online (Fast)
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-02 11:52:45
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Hung"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Hung
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-28 02:01:29
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/I%20Am%20Not%20Okay%20with%20This"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            I Am Not Okay with This
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-30 12:32:30
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Interrogation"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Interrogation
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-28 02:02:10
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/It's%20Always%20Sunny%20in%20Philadelphia"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            It&#039;s Always Sunny in Philadelphia
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-04 00:09:22
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Justice%20League"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Justice League
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-10 22:48:30
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Justice%20League%20Unlimited"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Justice League Unlimited
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-10 22:51:23
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Killing%20Eve"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Killing Eve
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-15 13:41:29
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Kingdom"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Kingdom
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-13 22:48:00
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Kipo%20and%20the%20Age%20of%20Wonderbeasts"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Kipo and the Age of Wonderbeasts
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-02 22:21:51
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Kota%20Factory"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Kota Factory
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-12 00:28:22
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Legends%20of%20Tomorroww"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Legends of Tomorroww
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-18 22:12:34
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Liar"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Liar
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-06 20:15:26
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Line%20of%20Duty"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Line of Duty
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-18 15:35:35
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Little%20America"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Little America
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-01 14:56:57
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Locke%20&amp;%20Key"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Locke &amp; Key
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-13 00:11:37
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Love%20Alarm"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Love Alarm
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-03 11:32:51
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Love%20Death%20Robot"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Love Death Robot
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-19 18:22:55
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Mad%20Men"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Mad Men
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-08 18:07:24
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Manhunt%20Unabomber"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Manhunt Unabomber
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-06 20:02:20
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Messiah"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Messiah
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-02 22:22:22
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Monarca"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Monarca
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-03 12:43:58
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Money%20Heist"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Money Heist
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-03 23:04:32
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Mr%20Inbetween"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Mr Inbetween
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-06 12:07:08
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Mr.%20Robot"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Mr. Robot
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-13 13:32:55
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/My%20Brilliant%20Friend"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            My Brilliant Friend
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-14 16:53:22
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Narcos%20Mexico"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Narcos Mexico
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-14 16:02:33
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Never%20Have%20I%20Ever"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Never Have I Ever
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-10 02:13:04
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Normal%20People"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Normal People
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-28 02:03:22
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/North%20and%20South"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            North and South
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-24 12:18:45
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/On%20My%20Block"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            On My Block
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-14 14:29:03
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Outer%20Banks"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Outer Banks
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-18 11:19:23
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Outlander"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Outlander
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-16 03:20:04
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Over%20the%20Garden%20Wall"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Over the Garden Wall
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-04 05:32:15
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Ozark"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Ozark
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-27 21:30:23
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Panchayat"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Panchayat
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-30 01:38:17
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Paradise%20PD"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Paradise PD
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-21 14:44:53
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Parks%20and%20Recreation"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Parks and Recreation
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-10 15:54:42
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Penny%20Dreadful%20City%20of%20Angels"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Penny Dreadful City of Angels
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-25 11:33:58
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Prodigal%20Son"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Prodigal Son
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-01 16:46:59
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/RWBY"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            RWBY
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-13 21:29:00
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Ragnarok"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Ragnarok
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-12 23:38:41
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Rise%20of%20Empires%20Ottoman"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Rise of Empires Ottoman
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-14 12:53:27
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Riverdale"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Riverdale
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-13 13:10:21
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Rome"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Rome
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-04 16:58:35
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/S%20Education"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            S Education
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-07 20:35:29
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Samurai%20Jack"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Samurai Jack
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-01-15 13:08:10
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Shamelesss"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Shamelesss
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-12 17:25:24
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Shaun%20the%20Sheep%20Adventures%20from%20Mossy%20Bottom"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Shaun the Sheep Adventures from Mossy Bottom
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-13 05:26:26
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Sherlock"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Sherlock
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-11 16:00:23
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Silicon%20Valley"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Silicon Valley
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-03 06:54:36
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Skylines"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Skylines
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-03 11:06:40
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Solar%20Opposites"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Solar Opposites
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-09 11:04:32
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/South%20Park"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            South Park
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-28 19:41:31
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Spinning%20Out"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Spinning Out
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-11 16:07:56
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Star%20Trek%20Picard"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Star Trek Picard
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-07 11:20:28
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Star%20Wars%20The%20Clone%20Wars"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Star Wars The Clone Wars
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-08 17:02:55
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Stumptown"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Stumptown
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-29 18:29:43
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Suits"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Suits
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-11 15:49:08
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Swamp%20Thing"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Swamp Thing
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-02 12:49:52
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/TVF%20Pitchers"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            TVF Pitchers
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-04 05:30:53
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Taboo"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Taboo
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-06 11:04:35
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Tell%20Me%20a%20Story"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Tell Me a Story
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-24 23:25:12
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Ant%20and%20the%20Aardvark"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Ant and the Aardvark
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-23 13:12:32
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Boss%20Baby%20Back%20in%20Business"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Boss Baby Back in Business
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-23 17:19:45
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Crown"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Crown
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-12 00:47:10
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Defenders"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Defenders
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-08 18:09:40
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20End%20of%20the%20Fucking%20World"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The End of the Fucking World
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-01-15 12:50:43
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20English%20Game"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The English Game
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-05 05:32:56
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Flash"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Flash
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-20 20:54:40
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Good%20Place"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Good Place
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-17 14:39:57
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Killing"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Killing
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-01 11:35:22
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Kominsky%20Method"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Kominsky Method
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-01-18 01:06:49
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Last%20Dance"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Last Dance
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-28 02:18:13
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Last%20Kingdom"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Last Kingdom
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-26 21:05:19
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Letter%20for%20the%20King"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Letter for the King
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-23 14:02:28
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Marvelous%20Mrs.%20Maisel"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Marvelous Mrs. Maisel
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-16 04:06:20
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Midnight%20Gospel"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Midnight Gospel
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-24 12:49:09
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20New%20Pope"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The New Pope
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-20 14:31:18
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Office"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Office
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-13 17:12:54
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Outsider"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Outsider
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-01-29 11:30:29
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Owl%20House"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Owl House
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-23 04:10:31
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Plot%20Against%20America"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Plot Against America
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-02 16:32:15
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Protector"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Protector
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-07 12:19:26
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Rookie"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Rookie
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-14 17:13:56
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Simpsons"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Simpsons
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-25 00:37:57
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Sinner"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Sinner
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-31 16:29:07
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Stranger"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Stranger
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-12 22:06:02
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Terror"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Terror
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-01-18 00:51:15
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Umbrella%20Academy"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Umbrella Academy
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-11 15:31:08
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Walking%20Dead"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Walking Dead
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-09 17:50:04
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20White%20Queen"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The White Queen
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-14 19:22:33
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Wire"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Wire
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-02-27 16:21:14
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/The%20Young%20Pope"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            The Young Pope
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-04 10:50:57
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/This%20is%20Us"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            This is Us
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-30 19:32:12
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Tiger%20King"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Tiger King
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-13 05:24:09
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Tom%20Clancy's%20Jack%20Ryan"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Tom Clancy&#039;s Jack Ryan
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-01-15 12:55:51
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Upload"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Upload
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-02 12:23:58
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Vagabond"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Vagabond
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-14 12:23:30
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Vienna%20Blood"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Vienna Blood
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-06 21:19:08
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Westworld"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Westworld
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-16 12:49:45
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/What%20We%20Do%20in%20the%20Shadows"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            What We Do in the Shadows
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-17 21:55:28
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Yeh%20Meri%20Family"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Yeh Meri Family
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-24 12:18:59
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Young%20Justice"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Young Justice
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-04-15 14:57:15
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/ZeroZeroZero"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            ZeroZeroZero
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-03-29 15:18:08
+        </div>
+    </div>
+</a>
+
+                                            <a
+    href="http://anilist1.ir/?dir=Series/Zoey's%20Extraordinary%20Playlist"
+    class="flex flex-col items-center rounded-lg font-mono group hover:bg-gray-200 hover:shadow"
+>
+    <div class="flex justify-between items-center p-4 w-full">
+        <div class="pr-2">
+                            <i class="fas fa-folder fa-fw fa-lg"></i>
+                    </div>
+
+        <div class="flex-1 truncate">
+            Zoey&#039;s Extraordinary Playlist
+        </div>
+
+        
+        <div class="hidden whitespace-no-wrap text-right mx-2 w-1/6 sm:block">
+                                —
+                    </div>
+
+        <div class="hidden whitespace-no-wrap text-right truncate ml-2 w-1/4 sm:block">
+            2020-05-12 11:52:31
+        </div>
+    </div>
+</a>
+
+                                    </li>
+            </ul>
+        </div>
+
+            </div>
+
+    <footer class="container border-t-2 border-gray-800 text-center mx-auto px-4 py-8">
+    <div class="flex flex-col justify-center items-center">
+        <p class="mb-4">
+            Download Anime, <h3 class="miel"><a href="https://www.animelist.ir/" class="underline hover:text-blue-700">Anime List</a>
+        </p>
+        <p class="mb-4" style="display:none;">
+            Powered by <h3 class="miel"><a href="https://www.directorylister.com" class="underline hover:text-blue-700">Directory Lister</a>
+        </p>
+
+        <div class="flex">
+            <!--<h3 class="miel"><a href="https://github.com/DirectoryLister/DirectoryLister" title="GitHub" class="text-gray-400 mx-2 hover:text-github">
+                <i class="fab fa-github fa-lg"></i>
+            </a>
+
+            <h3 class="miel"><a href="https://twitter.com/DirectoryLister" title="Twitter" class="text-gray-400 mx-2 hover:text-twitter">
+                <i class="fab fa-twitter fa-lg"></i>
+            </a>
+
+            <h3 class="miel"><a href="https://spectrum.chat/directory-lister" title="Spectrum" class="text-gray-400 mx-2 hover:text-spectrum">
+                <i class="fas fa-comments fa-lg"></i>
+            </a>-->
+
+            <h3 class="miel"><a href="https://t.me/animelist_ir" title="Telegram" class="text-gray-400 mx-2 hover:text-twitter">
+                <i class="fab fa-telegram-plane fa-lg"></i>
+            </a>
+
+            <h3 class="miel"><a href="https://instagram.com/animelist.ir" title="Instagram" class="text-gray-400 mx-2 hover:text-spectrum">
+                <i class="fab fa-instagram fa-lg"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+    <div class="fixed bottom-0 left-0 right-0 pointer-events-none">
+    <div class="container flex justify-end mx-auto px-4 py-10">
+        <button id="scroll-to-top" ref="scrollToTop"  title="Scroll to Top"
+            class="flex justify-center items-center w-12 h-12 right-0 rounded-full shadow-lg bg-blue-600 text-white cursor-pointer pointer-events-auto hover:bg-blue-700 hidden"
+            onclick="window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });"
+        >
+            <i class="fas fa-arrow-up fa-lg"></i>
+        </button>
+    </div>
+</div>
+    <file-info-modal ref="fileInfoModal"></file-info-modal>
+</div>
+
+<script src="http://anilist1.ir/app/assets/app.js" defer></script>
