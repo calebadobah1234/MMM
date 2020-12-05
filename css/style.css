@@ -28,11 +28,13 @@ h6 {
 	color: #111111;
 	font-weight: 600;
 	word-break: break-all;
+	display:inline-block;
 }
 
 .miel{
 	
 	word-break: break-all;
+	display:inline-block;
 	
 }
 
