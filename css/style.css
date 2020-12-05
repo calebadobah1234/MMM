@@ -28,8 +28,7 @@ h6 {
 	color: #111111;
 	font-weight: 600;
 	word-break: break-all;
-	display:inline;
-	word-wrap:normal;
+	display:inline-block;
 	
 }
 
@@ -37,14 +36,15 @@ h6 {
 	
 	word-break: break-all;
 	display:inline;
-	word-wrap:normal;
+	word-wrap:break-word;
 }
 
 .miel a{
 	
 	word-break: break-all;
 	display:inline;
-	word-wrap:normal;
+	word-wrap:break-word;
+	
 }
 
 h1 {
@@ -53,25 +53,27 @@ h1 {
 
 h2 {
 	font-size: 36px;
+	word-wrap:break-word;
 }
 
 h3 {
 	font-size: 30px;
-	
+	word-wrap:break-word;
 }
 
 h4 {
 	font-size: 24px;
-	
+	word-wrap:break-word;
 }
 
 h5 {
 	font-size: 18px;
-	
+	word-wrap:break-word;
 }
 
 h6 {
 	font-size: 16px;
+	word-wrap:break-word;
 	
 }
 
