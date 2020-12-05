@@ -35,14 +35,14 @@ h6 {
 .miel{
 	
 	word-break: break-all;
-	display:inline;
+	display:inline-block;
 	word-wrap:break-word;
 }
 
 .miel a{
 	
 	word-break: break-all;
-	display:inline;
+	display:inline-block;
 	word-wrap:break-word;
 	
 }
@@ -59,21 +59,25 @@ h2 {
 h3 {
 	font-size: 30px;
 	word-wrap:break-word;
+	display:inline-block;
 }
 
 h4 {
 	font-size: 24px;
 	word-wrap:break-word;
+	display:inline-block;
 }
 
 h5 {
 	font-size: 18px;
 	word-wrap:break-word;
+	display:inline-block;
 }
 
 h6 {
 	font-size: 16px;
 	word-wrap:break-word;
+	display:inline-block;
 	
 }
 
