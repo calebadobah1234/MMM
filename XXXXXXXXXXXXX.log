@@ -1,0 +1,7 @@
+error writing "file5144500": broken pipe
+error writing "file5144500": broken pipe
+    while executing
+"puts -nonewline $fd "[encoding convertto utf-8 $path]\0""
+    (procedure "write_update_index" line 35)
+    invoked from within
+"write_update_index file5144500 {{AAA/E/Anime/2015/Fall/Anitore EX/1080p/1080p.html} {AAA/E/Anime/2015/Fall/Anitore EX/720p/720p.html} {AAA/E/Anime/201..."
